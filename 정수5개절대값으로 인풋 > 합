@@ -1,0 +1,3 @@
+a,b,c,d,e = map(int,input("정수 5개 입력:구문자 ' '").split())
+abs(a)+abs(b)+abs(c)+abs(d)+abs(e)
+#abs절대값''
