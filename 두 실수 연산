@@ -1,0 +1,10 @@
+a=7.5
+b=2.5
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a-(b*3))#  >나머지연산으로수정
+#ab가실수라 프린트도 실수
+print(a%b)
