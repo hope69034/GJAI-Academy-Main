@@ -1,0 +1,26 @@
+a=100
+b=200
+print(a+b)
+print(a,'+',b,'=',a+b,sep='')  # sep 디폴트: 띄어쓰기 > 빈문자로 띄어쓰기 삭제
+
+print('%d+  %d=%d' %(a,b,a+b) )       # %d  :정수를 넣겠다     뒤에 %(a,b,a+b) : 앞 %d 에 각각각 넣을 정수 
+   # %s면 문자
+oo=print('%d+  %d=%d' %(a,b,a+b) ) 
+print(type(oo))
+
+
+# 정수+정수 = 넌타입?        #프린트는 > 넌타입이다
+
+
+print('{1}+{0}={2}'.format(a,b,a+b))   # {}안에는 포맷괄호의 인덱스값 - 생략가능 - 생략시 왼쪽에서오른쪽 
+                                            # {}안 포맷()안의 인덱스를 적어서 순서 바꾸기 가능 
+print(f'{a}+{b}={a+b}')
+ 
+print ( str(a)    +       "+"        +      str(b)      +     '='     +    str(a+b))
+  # 전부 문자로 전환  프린트문자+문자는 연결
+yy=print ( str(a)    +       "+"        +      str(b)      +     '='     +    str(a+b))
+print(type(yy))
+
+
+
+#str+str = 넌타입?
