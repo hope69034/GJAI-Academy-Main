@@ -1,0 +1,110 @@
+# 8.	차량 관리프로그램을 만드시오. (구매 가격은 엔진 가격 + 타이어 가격)
+# 1 자동차정보입력  
+# 2. 저장된목록보기
+# 3. 각자동차구매가격조회
+# 4. 옵션이잇는자동차조회
+# 5. 빠른자동차와느린차 속도차 조회
+
+import random                     
+ran_opt = [ 'yes' , 'no' ]
+def selectRandom(ran_opt):              #리스트에서 랜덤으로 뽑는 셀렉랜덤 데프함수를 선언 하여 옵션과 옵션네임을 무작위로 
+  return random.choice(ran_opt)
+# selectRandom(ran_opt)  랜덤옵션
+rat_optname = [ 'navigation', 'turbo' , ' Water proof', 'sun loop', 'black box', 'leather seat' ]
+def selectRandom(rat_optname):
+  return random.choice(rat_optname)
+# selectRandom(rat_optname) 랜덤옵션네임
+key_list = ['name',       'engine',                    'tire',                       'option',     'optionname', 'top_speed' ,'price' ]             # 키리스트선언 밸류리스트선언
+value_list1 = [ '레인' ,  '700원',   '200원' , selectRandom(ran_opt) ,   selectRandom(rat_optname) , random.randrange(100,500)     ,'900원'  ] 
+value_list2 = [ '샤인' ,  '1000원',   '600원' , selectRandom(ran_opt) ,   selectRandom(rat_optname), random.randrange(100,500)  ,     '1600원' ] 
+value_list3 = [ '소닉' ,  '990원',   '510원' , selectRandom(ran_opt) ,   selectRandom(rat_optname),  random.randrange(100,500),   '1500원' ] 
+value_list4 = [ '캣츠' ,  '950원',   '430원' , selectRandom(ran_opt) ,   selectRandom(rat_optname),  random.randrange(100,500),     '1380원' ] 
+value_list5 = [ '울프' ,  '500원',   '150원' , selectRandom(ran_opt) ,   selectRandom(rat_optname),  random.randrange(100,500),    '650원'] 
+value_list6 = [ '레빗' ,  '690원',   '380원' , selectRandom(ran_opt) ,   selectRandom(rat_optname) ,  random.randrange(100,500),    '1070원'] 
+value_list7 = [ '우사인' ,  '850원',   '340원' , selectRandom(ran_opt) ,   selectRandom(rat_optname) ,  random.randrange(100,500),  '1190원'] 
+value_list8 = [ '토네이도' ,  '770원',   '220원' , selectRandom(ran_opt) ,   selectRandom(rat_optname),  random.randrange(100,500),     '990원'] 
+value_list9 = [ '베어' ,  '660원',   '420원' , selectRandom(ran_opt) ,   selectRandom(rat_optname),    random.randrange(100,500),    '1080원' ] 
+value_list10 = [ '윈드' ,  '550원',   '340원' , selectRandom(ran_opt) ,   selectRandom(rat_optname) ,    random.randrange(100,500),    '890원'] 
+# 랜덤한  키리스트 밸류리스트 두개를 만들고 딕셔너리로 병합하기
+# zip 사용하여 묶기
+dict_1 = dict(zip(key_list, value_list1))   #완성된 딕셔너리 코드
+dict_2 = dict(zip(key_list, value_list2)) 
+dict_3 = dict(zip(key_list, value_list3)) 
+dict_4 = dict(zip(key_list, value_list4)) 
+dict_5 = dict(zip(key_list, value_list5))  
+dict_6 = dict(zip(key_list, value_list6)) 
+dict_7 = dict(zip(key_list, value_list7)) 
+dict_8 = dict(zip(key_list, value_list8)) 
+dict_9 = dict(zip(key_list, value_list9)) 
+dict_10 = dict(zip(key_list, value_list10)) 
+print(dict_1)
+print(dict_2)
+print(dict_3)
+print(dict_4)
+print(dict_5)
+print(dict_6)
+print(dict_7)
+print(dict_8)
+print(dict_9)
+print(dict_10)
+all_dict_list = [dict_1,dict_2,dict_3,dict_4,dict_5,dict_6,dict_7,dict_8,dict_9, dict_10]  # 딕셔너리 통합리스트
+print()
+while True :   
+    inp_1 = input("구매가, 옵션, 속도차, 종료 중 하나를 입력하세요: ")
+    print()
+    if inp_1 == '구매가' :
+           print('각 자동차의 구매 가격입니다.')
+           print()
+           print(dict_1['name'] ,':' , dict_1['price'])
+           print(dict_2['name'] ,':' , dict_2['price'])
+           print(dict_3['name'] ,':' , dict_3['price'])
+           print(dict_4['name'] ,':' , dict_4['price'])
+           print(dict_5['name'] ,':' , dict_5['price'])
+           print(dict_6['name'] ,':' , dict_6['price'])
+           print(dict_7['name'] ,':' , dict_7['price'])
+           print(dict_8['name'] ,':' , dict_8['price'])
+           print(dict_9['name'] ,':' , dict_9['price'])
+           print(dict_10['name'] ,':' , dict_10['price'])
+           print()
+    elif  inp_1 == '옵션' :
+            list_1=[]
+            print('옵션이 있는 자동차 입니다.')
+            print()
+            if dict_1['option'] == 'yes' :
+                list_1.append(dict_1['name'])
+            if dict_2['option'] == 'yes' :
+                list_1.append(dict_2['name'])
+            if dict_3['option'] == 'yes' :
+                list_1.append(dict_3['name'])
+            if dict_4['option'] == 'yes' :
+                list_1.append(dict_4['name'])
+            if dict_5['option'] == 'yes' :
+                list_1.append(dict_5['name'])
+            if dict_6['option'] == 'yes' :
+                list_1.append(dict_6['name'])
+            if dict_7['option'] == 'yes' :
+                list_1.append(dict_7['name'])
+            if dict_8['option'] == 'yes' :
+                list_1.append(dict_8['name'])
+            if dict_9['option'] == 'yes' :
+                list_1.append(dict_9['name'])
+            if dict_10['option'] == 'yes' :
+                list_1.append(dict_10['name'])
+            print(', '.join(list_1))    
+            print()
+    elif  inp_1 == '속도차' :
+            list_2=[]          
+            list_2 = [dict_1['top_speed'], dict_2['top_speed'],dict_3['top_speed'],dict_4['top_speed'],dict_5['top_speed'] ,dict_6['top_speed'],dict_7['top_speed'], dict_8['top_speed'],dict_9['top_speed'], dict_10['top_speed'] ]
+            max_1=max(list_2)
+            min_1=min(list_2)
+            ms_1 = list_2.index(max_1)  #맥스피드인덱스값
+            maxc_name = all_dict_list[ms_1]['name']  #맥스피드 차이름   딕셔너리 통합리스트에서 인덱스값 > 키값으로 밸류 찾기
+            ms_2 = list_2.index(min_1)  #민스피드인덱스값
+            minc_name = all_dict_list[ms_2]['name']  #민스피드 차이름
+            print( '가장 빠른 자동차와 가장 느린 자동차의 속도차는 ' ,max_1-min_1,' km/h 입니다.' ,' [ ', maxc_name  , '(' , max_1 , ')' , ' - ' , minc_name, '(' , min_1 , ') = '  , max_1-min_1 ,' ]', sep='' ,end='\n\n')           
+    elif  inp_1 == '종료' :
+         print('프로그램 이용을 종료합니다.')   
+         break     
+    else: 
+         print('잘못 입력하셨습니다. 다시 입력해주세요.')  
+         print()
