@@ -1,0 +1,12 @@
+n=int(input())
+n2= int(input())
+for i in range(1):
+    print(n*(n2%10))
+    a=n2%10
+    n3=n2-a
+    print(int((n*(n3%100))/10))
+    b=n3%100
+    n4=n3-b
+    print(int((n*(n4%1000))/100))
+    print(n*n2)
+ 
