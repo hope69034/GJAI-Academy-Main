@@ -1,6 +1,0 @@
-#인트 인풋 3개를 받고 최소값 찾기
-
-a,b,c = map(int,input('3개정수입력공백구분:').split())
-#인풋3개중 최소
-aaa=    c  if a>c else    a   if  a<b  else b           if  b<c   else c
-print(aaa)

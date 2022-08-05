@@ -1,4 +1,0 @@
-b=input()
-a=[b]
-if b in a:
-    print(b,'??!',sep='')
