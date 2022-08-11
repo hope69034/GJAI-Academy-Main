@@ -1,0 +1,54 @@
+# 폴리움 불러오기, 버전확인
+import folium
+folium.__version__
+
+# 오픈스트리트맵에 광주광역시청과구청을표시
+
+# 맵을 표시할 중심점을 찍는다
+map = folium.Map(location=[35.159841,126.851784], zoom_start=12 , max_width=200) # (위도,경도)
+
+# 마커는 마킹만한다
+folium.Marker(
+    location=[35.159841,126.851784] , # [위도,경도]
+    popup=folium.Popup('광주광역시 서구 내방로 111'), # 마커누르면나오는문구
+    tooltip='광주광역시청', #마커에 커서올리면나오는문구
+    icon=folium.Icon(color='red',icon='camera') # 마커 아이콘옵션, 색상/아이콘모양 
+).add_to(map)
+
+folium.Marker(
+    location=[ 35.14614999401774,126.92309512856308] ,
+    popup=folium.Popup('광주광역시 동구 서남로 1'),
+    tooltip='광주광역시 동구청',
+    icon=folium.Icon(color='crimson',icon='camera')
+).add_to(map)
+
+folium.Marker(
+    location=[35.152089096162236,126.88985826388209] ,
+    popup=folium.Popup('광주광역시 서구 농성동 경열로 33'),
+    tooltip='광주 서구청',
+    icon=folium.Icon(color='green',icon='camera')
+).add_to(map)
+
+folium.Marker(
+    location=[35.17410046937537,126.91215706204946] ,
+    popup=folium.Popup('광주광역시 북구 우치로 77'),
+    tooltip='광주 북구청',
+    icon=folium.Icon(color='pink',icon='camera')
+).add_to(map)
+
+folium.Marker(
+    location=[35.13290098068543,126.90257332634087] ,
+    popup=folium.Popup('광주광역시 남구 봉선로 1'),
+    tooltip='광주 남구청',
+    icon=folium.Icon(color='black',icon='camera')
+).add_to(map)
+
+folium.Marker(
+    location=[35.13955198869462,126.79380680502933] ,
+    popup=folium.Popup('광주광역시 광산구 광산로29번길 15'),
+    tooltip='광주 광산구청'
+).add_to(map)
+map
+
+# 저장-다운로드
+map.save("광주.html")
