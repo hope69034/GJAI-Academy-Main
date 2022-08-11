@@ -1,4 +1,3 @@
-```python
 # 폴리움 불러오기, 버전확인
 import folium
 folium.__version__
@@ -53,4 +52,3 @@ map
 
 # 저장-다운로드
 map.save("광주.html")
-```
