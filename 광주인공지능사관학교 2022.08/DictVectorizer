@@ -1,0 +1,8 @@
+from sklearn.feature_extraction import DictVectorizer # 백오브워드(빈도만고려) 인코딩 벡터 .벡터화장치
+v = DictVectorizer(sparse=False)
+D = [ {'A':1, 'B':2},{'B':3, 'C':1}]
+X = v.fit_transform(D)
+print(X) #피처는 단어 행은 문장
+print(v.feature_names_)
+d_l = { 'A':5, 'B':1, 'D':100 } # D로 피팅이되잇기 때문에 D:100 은 안뜨고 C자리엔 당연히0이들어감
+print(v.transform(d_l)) 
