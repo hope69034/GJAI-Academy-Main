@@ -8,6 +8,5 @@ Project1 (JS_B_Stardust): 두피 자가진단 시스템 2022-08-11 ~ 2022-09-05
 ![4](https://user-images.githubusercontent.com/108075604/189489073-ffa33f26-6b6d-4a2f-aaca-623dddcef8b2.png)
 ![5](https://user-images.githubusercontent.com/108075604/189489075-eb4f7e0c-ecd2-46c3-a005-299aeeaaae86.png)
 ![6](https://user-images.githubusercontent.com/108075604/189489077-a972931f-87af-4de7-ab56-d7e3a678681f.png)
-![7](https://user-images.githubusercontent.com/108075604/189489080-38a65dc6-87a5-4d19-93e9-08
-![8](https://user-images.githubusercontent.com/108075604/189489090-ba8c4477-ce16-4561-b5d1-c8bfc944cdc9.png)
-3ee6f585fe.png)
+![7](https://user-images.githubusercontent.com/108075604/189489227-4053c22d-68a7-4b08-96bb-402c1b90e855.png)
+![8](https://user-images.githubusercontent.com/108075604/189489234-96352042-a350-4fc4-82ae-6a2734f656af.png)
