@@ -19,6 +19,7 @@
 ### 2. 위 모델6개로 사용자의 두피이미지에 대한 프리딕트값 6개를 얻는다.
 
 ### 3. 위 6개의 프리딕트 값을 기반으로 다음 진단 기준에 따라 두피 타입을 진단한다.
+https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%202022.08/JS_B_Stardust_Project/SD_Project_Final_Code/9_10_sd_project_web.ipynb
 
 ```python
     d_list = [] # 두피유형진단결과
