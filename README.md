@@ -7,12 +7,12 @@
 
 ```python
 각 증상의 중증도에 따라 0, 1, 2, 3 으로 분류하는 모델이다. (0:양호, 1:경증, 2:중등도, 3:중증) 
- model1_train.py : 미세각질       
- model2_train.py : 피지과다     
- model3_train.py : 모낭사이홍반   
- model4_train.py : 모낭홍반농포   
- model5_train.py : 비듬         
- model6_train.py : 탈모         
+ model1.py : 미세각질       
+ model2.py : 피지과다     
+ model3.py : 모낭사이홍반   
+ model4.py : 모낭홍반농포   
+ model5.py : 비듬         
+ model6.py : 탈모         
 ```
 ### 2. 위 모델6개로 사용자의 두피이미지에 대한 프리딕트값 6개를 얻는다.
 
