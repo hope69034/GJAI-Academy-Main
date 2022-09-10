@@ -14,7 +14,7 @@
  model5.py : 비듬         
  model6.py : 탈모
  
-# 최종 모델 벨리셋 /  테스트셋 정확도 (낮은 컴퓨터 사양 탓에 batch size=2, 낮은 epochs 로 학습)
+최종 모델 벨리셋 /  테스트셋 정확도 (낮은 컴퓨터 사양 탓에 batch size=2, 낮은 epochs 로 학습)
 
 # 모델1
 model1(미세각질) : 모델 생성 완료(epoch 15회 best val score : 63.4%)
