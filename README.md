@@ -90,3 +90,6 @@ https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%
 ``` 
         
 ### 4. 두피 타입에 맞는 정보와 관련 제품을 추천한다.
+
+## 수익 모델
+
