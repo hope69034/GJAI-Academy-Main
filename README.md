@@ -14,38 +14,32 @@ https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%
  model5.py : 비듬         
  model6.py : 탈모
  
-최종 모델 벨리셋 /  테스트셋 정확도 (낮은 컴퓨터 사양 탓에 batch size=2, 낮은 epochs 로 학습)
-
+최종 모델 벨리셋 / 테스트셋 정확도 (낮은 컴퓨터 사양 탓에 batch size=2, 낮은 epochs 로 학습)
 # 모델1
 model1(미세각질) : 모델 생성 완료(epoch 15회 best val score : 63.4%)
 train/val : 12739/3639
 100%|██████████| 238/238 [03:01<00:00,  1.31it/s]
 Test set: Average Loss: -1.9017, Accuracy: 289/476 (60.7143%)
-
 # 모델2
 model2(피지과다) : 모델 생성 완료(epoch 2회 best val score : 57.6%)
 train/val : 56826/16236
 100%|██████████| 662/662 [01:17<00:00,  8.54it/s]
 Test set Accuracy: 324/662 (48.9426%)
-
 # 모델3
 model3(모낭사이홍반) : 모델 생성 완료(epoch 5회 best val score : 78.4)
 train/val : 47726/13635
 100%|██████████| 359/359 [03:24<00:00,  1.76it/s]
 Test set: Average Loss: -2.2255, Accuracy: 461/718 (64.2061%)
-
 # 모델4
 model4(모낭홍반농포) : 모델 생성 완료(epoch 50회 best val score : 72.4)
 train/val : 3750/1070
 100%|██████████| 197/197 [01:32<00:00,  2.12it/s]
 Test set: Average Loss: -3.4693, Accuracy: 281/394 (71.3198%)
-
 # 모델5
 model5(비듬) : 모델 생성 완료(epoch 5회 best val score : 73.4)
 trian/val : 28873/8248
 100%|██████████| 310/310 [02:31<00:00,  2.05it/s]
 Test set: Average Loss: -2.0950, Accuracy: 370/620 (59.6774%)
-
 # 모델6
 model6(탈모) : 모델 생성 완료(epoch 8회(4회×2) best val score : 74.7)
 trian/val : 18513/5288
