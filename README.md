@@ -3,7 +3,9 @@
 
 ## 시스템 설명
 
-### 1. 모델6개 학습https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%202022.08/JS_B_Stardust_Project/SD_Project_Final_Code/9_10_sd_project_train_add_graph.ipynb
+### 1. 모델6개 학습
+
+https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%202022.08/JS_B_Stardust_Project/SD_Project_Final_Code/9_10_sd_project_train_add_graph.ipynb
 
 ```python
 각 증상의 중증도에 따라 0, 1, 2, 3 으로 분류하는 모델이다. (0:양호, 1:경증, 2:중등도, 3:중증) 
