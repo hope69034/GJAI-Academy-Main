@@ -1,8 +1,10 @@
 # Project1 (JS_B_Stardust): 두피 자가진단 시스템 2022-08-11 ~ 2022-09-05 https://github.com/hope69034/developer.SH/issues/3
 <img src="https://user-images.githubusercontent.com/108075604/188791960-6ca55e8f-757e-4b4e-ae9a-65ace5d6c754.gif"> 
-<br><br>
+
 ## 시스템 설명
-### 1. 모델6개 학습 <br>
+
+### 1. 모델6개 학습
+
 ```python
 각 증상의 중증도에 따라 0, 1, 2, 3 으로 분류하는 모델이다. (0:양호, 1:경증, 2:중등도, 3:중증) 
  model1_train.py : 미세각질       
@@ -13,6 +15,7 @@
  model6_train.py : 탈모         
 ```
 ### 2. 위 모델6개로 사용자의 두피이미지에 대한 프레딕트 값 6개를 얻는다
+
 ### 3. 6개의 프레딕트 값을 기반으로 진단 기준에 따라 두피 타입을 진단한다.
 
 ```python
