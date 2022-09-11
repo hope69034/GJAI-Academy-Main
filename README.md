@@ -2,8 +2,7 @@
 <img src="https://user-images.githubusercontent.com/108075604/188791960-6ca55e8f-757e-4b4e-ae9a-65ace5d6c754.gif"> 
 
 
-
-
+<br><br>
 ## 시스템 요약
 
 ### 1. 모델6개 학습
@@ -90,6 +89,7 @@ print(d_list[0])
         
 ### 4. 두피 타입에 맞는 정보와 관련 제품을 추천한다.
 
+<br><br>
 ## 발전 방향성
 
 ### 1. 모델 accuracy 향상.
