@@ -52,35 +52,37 @@ Test set: Average Loss: -1.3145, Accuracy: 633/1154 (54.8527%)
 https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%202022.08/JS_B_Stardust_Project/SD_Project_Final_Code/9_10_sd_project_web.ipynb
 
 ```python
-    d_list = [] # 두피유형진단결과
-    # 두피 유형 진단법
-    if m1p == 0 and m2p == 0 and m3p == 0 and m4p == 0 and m5p == 0 and m6p == 0 :
-        d1 = '정상입니다.'
-        d_list.append(d1)
-    elif m1p != 0 and m2p == 0 and m3p == 0 and m4p == 0 and m5p == 0 and m6p == 0 :
-        d2 = '건성 두피입니다.'
-        d_list.append(d2)
-    elif m1p == 0 and m2p != 0 and m3p == 0 and m4p == 0 and m5p == 0 and m6p == 0 :
-        d3 = '지성 두피입니다.'
-        d_list.append(d3)
-    elif m2p == 0 and m3p != 0 and m4p == 0 and m5p == 0 and m6p == 0 :
-        d4 = '민감성 두피입니다.'
-        d_list.append(d4)
-    elif m2p != 0 and m3p != 0 and m4p == 0 and m6p == 0 :
-        d5 = '지루성 두피입니다.'
-        d_list.append(d5)
-    elif m3p == 0 and m4p != 0 and m6p == 0 :
-        d6 = '염증성 두피입니다.'
-        d_list.append(d6)
-    elif m3p == 0 and m4p == 0 and m5p != 0 and m6p == 0 :
-        d7 = '비듬성 두피입니다.'
-        d_list.append(d7)
-    elif m1p == 0 and m2p != 0 and m3p == 0 and m4p == 0 and m5p == 0 and m6p != 0 :
-        d8 = '탈모입니다.'
-        d_list.append(d8)
-    else:
-        d9 = '복합성 두피입니다.'
-        d_list.append(d9) 
+#진단
+d_list = []     # 두피유형진단결과
+#두피 유형 진단법                    
+if fm1p < 1  and fm2p < 1 and fm3p < 1 and fm4p < 1 and fm5p < 1 and fm6p < 1 :
+    d1 = '정상입니다.'
+    d_list.append(d1)
+elif fm1p >= 1 and fm2p < 1 and fm3p < 1 and fm4p < 1 and fm5p < 1 and fm6p < 1 :
+    d2 = '건성 두피입니다.' 
+    d_list.append(d2)
+elif fm1p < 1 and fm2p >=1  and fm3p < 1 and fm4p < 1 and fm5p < 1 and fm6p < 1 :
+    d3 = '지성 두피입니다.'
+    d_list.append(d3)
+elif fm2p < 1 and fm3p >= 1 and fm4p < 1 and fm5p < 1  and fm6p < 1 :
+    d4 = '민감성 두피입니다.'
+    d_list.append(d4)
+elif fm2p >= 1 and fm3p >= 1 and fm4p < 1 and fm6p < 1 :
+    d5 = '지루성 두피입니다.'
+    d_list.append(d5)
+elif fm3p < 1 and fm4p  >= 1 and fm6p < 1 :
+    d6 = '염증성 두피입니다.'
+    d_list.append(d6)
+elif fm3p < 1 and fm4p < 1 and fm5p >= 1 and fm6p < 1 :
+    d7 = '비듬성 두피입니다.'
+    d_list.append(d7)
+elif fm1p < 1 and fm2p >= 1 and fm3p < 1 and fm4p < 1 and fm5p < 1 and fm6p >= 1 :
+    d8 = '탈모입니다.'
+    d_list.append(d8)
+else:
+    d9 = '복합성 두피입니다.'
+    d_list.append(d9)
+print(d_list[0])
 ``` 
         
 ### 4. 두피 타입에 맞는 정보와 관련 제품을 추천한다.
