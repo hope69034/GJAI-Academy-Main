@@ -1,7 +1,7 @@
 # Project1 (JS_B_Stardust): 두피 자가진단 시스템 <br> 2022-08-11 ~ 2022-09-05 https://github.com/hope69034/developer.SH/issues/3
 <img src="https://user-images.githubusercontent.com/108075604/188791960-6ca55e8f-757e-4b4e-ae9a-65ace5d6c754.gif"> 
 
-## 시스템 설명
+## 시스템 
 
 ### 1. 모델6개 학습
 https://github.com/hope69034/developer.SH/blob/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%202022.08/JS_B_Stardust_Project/SD_Project_Final_Code/9_10_sd_project_train_add_graph.ipynb
@@ -87,7 +87,7 @@ print(d_list[0])
         
 ### 4. 두피 타입에 맞는 정보와 관련 제품을 추천한다.
 
-## 향후 발전 방향성
+## 발전 방향성
 
 ### 1. 모델 accuracy 향상.
 ### 2. 광고, 제휴 수수료를 통한 수익.
