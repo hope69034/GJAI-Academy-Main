@@ -1,4 +1,4 @@
-# Project1 (JS_B_Stardust): 두피 자가진단 시스템 <br> 2022-08-11 ~ 2022-09-05 https://github.com/hope69034/developer.SH/issues/3
+# Project1 (GJ_AI_Academy_JS_B_Stardust): 두피 자가진단 시스템 <br> 2022-08-11 ~ 2022-09-05 https://github.com/hope69034/developer.SH/issues/3
 <img src="https://user-images.githubusercontent.com/108075604/188791960-6ca55e8f-757e-4b4e-ae9a-65ace5d6c754.gif"> 
 
 
@@ -102,5 +102,5 @@ print(d_list[0])
 <hr><hr><hr>
 <br><br><br><br><br>
 
-# Project2 (JS_B_*): *
+# Project2 (GJ_AI_Academy_JS_B_*): *
 2022-*-* ~ 2022-*-*
