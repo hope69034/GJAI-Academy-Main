@@ -1,3 +1,8 @@
+
+https://school.programmers.co.kr/learn/courses/30/lessons/12985
+
+
+
 N명 참가 토너먼트
 1번토너먼트 1번부터 ~ N번 번호
 2번토너먼트 1번부터 ~.N/2번 번호
