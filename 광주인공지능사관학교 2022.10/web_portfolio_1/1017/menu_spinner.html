@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Dignosis{% endblock %}
+{% block additional_head %}
+<style>
+    td {
+        text-align: center;
+    }
+</style>
+{% endblock %}
+{% block subtitle %}
+<strong>program's running</strong><small> wait for some time</small>
+{% endblock %}
+{% block content %}
+<div class="row mt-5">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <div class="d-flex align-items-center">
+            <img src="{{url_for('static', filename='img/please-wait.gif')}}" alt="실행중">
+        </div>
+    </div>
+    <div class="col-2"></div>
+</div>
+<form style="display: none" action="/menu_res?filename={{filename}}" method="POST" id="form">
+</form>
+{% endblock %}
+{% block additional_body %}
+<script>
+    window.onload = function () {
+        console.log('menu_spinner.html')
+        $("#form").submit();
+    }
+</script>
+{% endblock %}
