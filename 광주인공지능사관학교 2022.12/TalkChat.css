@@ -1,0 +1,111 @@
+/* main */
+.other-message {
+  background: #2ecc71 !important;
+  color: #fff !important;
+
+  border-radius: 20px 20px 20px 0px !important;
+  vertical-align: top;
+}
+
+.my-message {
+  background: #f39c12 !important;
+  color: #fff !important;
+
+  border-radius: 20px 20px 0px 20px !important;
+}
+:root {
+  background: #f0fddd !important;
+}
+.main-container {
+  background: #f0fddd !important;
+}
+
+/* navbar 헤더*/
+.header-container {
+  background: #2ecc71 !important;
+}
+.header-title-container {
+  margin-left: 3%;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 8%; /* footer의 높이 */
+  /* position: absolute;   */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.input-form {
+  width: 80%;
+  height: 90%;
+}
+
+.input-button {
+  width: 20%;
+  height: 90%;
+}
+
+.send-icon {
+  height: 90%;
+}
+
+/* main */
+.my-message {
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-left: auto;
+}
+
+.other-message {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.toast-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.main-container {
+  width: 100%;
+}
+
+.toast {
+  width: 220px !important;
+  max-width: 100%;
+  /*   margin-left: 100px; */
+}
+.form-control {
+  border: 1px solid #ffffff !important;
+}
+
+/* 봇 아바타 */
+.a2 {
+  background: #2ecc71;
+  padding: 0px !important;
+  width: 24% !important;
+  /* position: absolute; */
+  /* display: inline-block; */
+  display: inline-block;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 10px 0px !important;
+}
+
+/* 스크롤쭉내려가게아래마진 */
+.toast-main-container{
+    margin-bottom: 100px;
+}
+
+
+
+ 
